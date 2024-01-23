@@ -29,7 +29,7 @@
 - Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook: What is the total explained variance of the three principal components?
 - Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
-## ind the Best Value for k Using the PCA Data
+## Find the Best Value for k Using the PCA Data
 ### Use the elbow method on the PCA data to find the best value for k using the following steps:
 - Create a list with the number of k-values from 1 to 11.
 - Create an empty list to store the inertia values.
@@ -85,7 +85,7 @@
   <img src="./result_images/crypto_cluster_orig.JPG" alt="Cluster PCA"/>
 </p>
 
-##ANALYSIS
+## Analysis
 
 <p align="center">
   <img src="./result_images/elbow_curve_comparison.JPG" alt="Elbow comparison"/>
@@ -106,8 +106,8 @@
 ### There is a noticeable overlap between the original and PCA data points for each cluster, which suggests that PCA has preserved the underlying cluster structure of the data.
 ### Outliers are present in both datasets, but the PCA data seems to pull these points slightly towards the center of the clusters, which might indicate a reduction in the influence of outliers after PCA transformation.
 
-
-## In summary, the PCA appears to effectively simplify the data without losing the clustering characteristics, as shown by the consistent elbow point in the second image and the overlapping clusters in the first image. The PCA transformation seems to provide a more concise representation of the data, potentially improving computational efficiency and possibly reducing the effect of noise or less informative features.
+## Summary
+### In summary, the PCA appears to effectively simplify the data without losing the clustering characteristics, as shown by the consistent elbow point in the second image and the overlapping clusters in the first image. The PCA transformation seems to provide a more concise representation of the data, potentially improving computational efficiency and possibly reducing the effect of noise or less informative features.
 
 
 
